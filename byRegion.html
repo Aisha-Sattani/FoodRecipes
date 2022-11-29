@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes By Regions</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+    integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
+    crossorigin=""></script>
+    
+    
+</head>
+<body>
+        <div class="topnav">
+         <a href="index.html">Home</a>
+         <a class="active" href="byRegion.html">By Regions</a>
+         <input type="text" name="searchBar" id="searchBar" placeholder="Search..."/>
+        </div>
+
+        <div id="map" class="map" style="height: 500px;"></div>
+
+        <div id="heading"></div>
+
+        <div class="content-wrapper">
+
+            <div class="portfolio-items-wrapper" id="parent">
+
+            </div>
+
+        </div>
+</body>
+<script src="map.js"></script>
+
+</html>
